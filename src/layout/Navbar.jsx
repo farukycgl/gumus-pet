@@ -4,7 +4,7 @@ import NavbarBottom from "../components/navbar/NavbarBottom";
 
 const Navbar = () => {
   return (
-    <div className="bg-amber-300">
+    <div className="flex flex-col">
       <NavbarTop />
       <NavbarBottom />
     </div>

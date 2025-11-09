@@ -4,7 +4,7 @@ import ProductList from "../components/home/ProductList";
 
 const Home = () => {
   return (
-    <div className="bg-gray-300 flex flex-col gap-3">
+    <div className="bg-white flex flex-col gap-15">
       <SliderHero />
       <ProductList/>
     </div>
