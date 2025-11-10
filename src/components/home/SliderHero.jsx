@@ -18,10 +18,10 @@ const SliderHero = () => {
     slidesToScroll: 1,
   };
   return (
-    <div className="relative h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
+    <div className="relative h-[200px] sm:h-[300px] md:h-[400px] lg:h-[480px]">
       <Slider {...settings}>
         {images.map((image, index) => (
-          <div key={index} className="w-full h-full">
+          <div key={index} className="w-full h-[200px] sm:h-[300px] md:h-[400px] lg:h-[480px]">
             <img
               src={image}
               alt={`slide-${index}`}
